@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="wqlandtransfer"
+  id="myeclipse.1498226531563"
+  context-root="/wqlandtransfer"
+  j2ee-spec="5.0"
+  archive="wqlandtransfer.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

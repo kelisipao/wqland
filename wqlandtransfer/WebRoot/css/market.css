@@ -1,0 +1,108 @@
+
+@CHARSET "UTF-8";
+*{
+    	margin:0;
+    	padding:0;
+    } 
+    .body{
+    	width:1200px;
+    	height:1000px;
+    	margin:0px auto;
+    }
+    .menu{
+    	width:200px;
+    	height:550px;
+    	
+    	float:left;
+    	margin:10px 5px 10px 10px;
+    }
+    .menubody{
+    	width:960px;
+    	height:550px;
+    	float:left;
+    	margin:10px 10px 10px 5px;
+    	overflow:scroll;
+    	position:relative;
+    }
+	.deal{
+	
+	}
+	#log{
+		width:100%;
+		height:230px;
+	}
+	#topimg{
+		width:100%;
+		height:230px;
+	}
+	#logoimg{
+		position:absolute;
+		top:25px;
+		left:200px;
+	}
+	#logoname{
+		position:absolute;
+		top:60px;
+		left:350px;
+	}
+	#bodyshow{
+		width:100%;
+		height:580px;
+		margin:20px 0px 20px 0px;
+	}
+	#check{
+		position:relative;
+		top:-20px;
+		display:none;
+	}
+	#apply{
+		position:relative;
+		top:-20px;
+	}
+	#list{
+		test-align:center;
+		float:right;
+	}
+	#list #dealcenter,#newdeal,#person,#publish,#fitneed,#intention,#contract{
+		margin:20px 0;
+		width:100%;
+		height:30px;
+		text-align:left;
+		font-size:1.5em;
+		list-style-image:url("../images/home.png");
+	}
+	#table1{
+		width:95%;
+	}
+	#wantsellbody{
+		display:none;
+	}
+	#newdealbody{
+		width:95%;
+		heigh:500px;
+		border:1px solid black;
+		position:relative;
+		top:-20px;
+		display:none;
+		padding:0 20px;
+	}
+	#foot{		
+		text-align:center;
+		height: 40px;
+        line-height: 40px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;          
+        letter-spacing: 1px;
+	}
+	table{
+		margin:20px auto;
+		width:95%;
+	}
+	table,tr td{
+		border:1px solid grey;	
+	}
+	td{
+		padding:10px;
+	}
+	

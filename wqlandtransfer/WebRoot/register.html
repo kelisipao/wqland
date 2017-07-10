@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>武清区土地二级市场交易信息平台-注册</title>
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+</head>
+
+<body>
+<div class="redister">
+    <div><img src="images/bg_01.png"></div>
+    <div class="xs_bg"></div>
+    <div class="re_main">
+		<div class="title">武清区土地二级市场交易信息平台</div>
+		<div class="re_content">
+			<form action="market/registerUser.action" method="post">
+			<div class="infor">
+				<ul>
+					<li><a><span>用户名：</span></a><input class="w300" type="text" name="user.username"/></li>
+					<li><a><span>手机号码：</span></a><input class="w300" type="text" name="user.mobile"/></li>
+					<li><a><span>邮&nbsp;箱：</span></a><input class="w300" type="text" name="user.email"/></li>
+					<li><a><span>类&nbsp;型：</span></a><select class="w300" name="user.type">
+						<option value="0">单位</option>
+						<option value="1">个人</option>
+						<option value="2">代理机构</option>
+						<option value="3">金融机构</option>
+						</select></li>
+					<li><a><span>创建密码：</span></a><input class="w300" type="password" name="user.password"/></li>
+					<li><a><span>确认密码：</span></a><input class="w300" type="password" name="repassword"/></li>
+				</ul>
+				<div class="re_button"><input type="submit" value="注册"/></div>
+				<div class="else_btn"><a class="l_n">已有账号?&nbsp;<span><a href="login.html">马上登录</a></span></a></div>
+			</div>
+			</form>
+		</div>	
+	</div>
+	
+	
+</div>
+</body>
+</html>

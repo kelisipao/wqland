@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>天津市武清区土地二级市场交易信息平台-个人注册申请表</title>
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<script language="javascript" type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script language="javascript" type="text/javascript" src="js/main.js"></script>
+</head>
+
+<body>
+<div class="main">
+	<div class="top">
+		<div class="back_home"><img src="images/home.png"><a href="information-单位申请表.html">首页</a></div>
+		<div class="back_personal"><a>回到个人中心</a></div>
+		<div class="quit"><img src="images/quit.png"><a href="register.html">退出</a></div>
+	</div>		
+	<div class="head">
+	<img class="top_banner" src="images/top_banner.png">
+	<div class="logo"><img src="images/logo.png"></div>
+	<div class="platform_name"><img src="images/name.png"></div>
+	</div>
+	
+	<div class="content_box">
+		<div class="content">
+			<p class="title">个人注册申请&nbsp;<span>(<e>*</e>为必填)</span><br><span>表单编号：009WDBGFYJ09187</span></p>
+			<div class="form">
+			<form action="market/personalregister.action" method="post" enctype="multipart/form-data">
+				<ul>
+					<li><a><span><e>*</e>姓名：</span></a><input class="w325" name="person.pName"></li>
+					<li><a><span><e>*</e>联系电话：</span></a><input class="w325" name="person.pPhone"></li>
+					<li><a><span><e>*</e>身份证件种类：</span></a><div class="w325" name="person.pIdentityType">
+						<input type="radio"  value="0">&nbsp;居民身份证&nbsp;&nbsp;
+						<input type="radio"  value="1">&nbsp;护照&nbsp;&nbsp;
+						<input type="radio"  value="2">&nbsp;军官证&nbsp;&nbsp;
+						<input type="radio"  value="3">&nbsp;其他</div>
+					</li>
+					<li><a><span><e>*</e>身份证件编号：</span></a><input class="w325" name="person.pIentityNumber"></li>
+					<li><a><span><e>*</e>通讯地址：</span></a><input class="w325"name="person.pAddress"></li>
+					<li><a><span><e>*</e>邮编：</span></a><input class="w325" name="person.pPostcode"></li>
+					<li><a><span><e>*</e>附件上传：</span></a><div >
+						<span class="uploadWrap w820">
+							<input type="file" class="fileWrap" name="filePic">
+							<input type="text" class="textWrap" id="textfield">
+							<input type="button" class="btnWrap" value="选择上传...">
+						</span>
+					</div>
+						<p>请法定代表人手持身份证拍摄，并上传（控制在1M以下）<br>
+						照片要求：
+						1.	拍摄时，手持本人身份证，并将持证手臂和上半身整个拍进照片，脸部清晰且不能被遮挡；<br>
+						2.	确保身份证上的所有信息清晰可见、完整（没有被遮挡或者被手指捏住）；<br>
+						3.	照片内容要求真实有效，不得做任何修改。</p>
+					<div>
+						<input type="submit" value="下一步"/>
+					</div>
+					</li>
+				</ul>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!--  <div class="next"><a class="next_btn">下一步</a>--></div>
+</div>
+<!--遮罩层-->
+<div class="masking"></div>
+<!--弹出层-->
+<div class="popWrap">
+	<p>确认保存以上填写的信息吗？</p>
+	<div class="btn">
+		<a class="back_btn" href="information-个人注册申请表.html">返回</a>
+		<a class="sure_btn" href="information-土地出租供应表.html">确认</a>
+	</div>
+</div>
+</body>
+</html>
